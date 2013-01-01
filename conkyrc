@@ -1,0 +1,64 @@
+background 1
+
+
+# Locale, fonts and font sizes.
+use_xft yes
+xftfont Droid Sans:size=9
+override_utf8_locale yes
+
+# Conky performance
+update_interval 1
+total_run_times 0
+double_buffer yes
+no_buffers yes
+net_avg_samples 2
+text_buffer_size 1024
+
+# Execute it in its own window
+own_window yes 
+own_window_transparent yes
+own_window_type override
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+# Borders, margins.
+draw_borders no
+border_margin 1
+
+# Own window color
+#own_window_colour 393834
+
+# Font colors
+default_color B7B2AD
+#default_color EFEEED
+
+# Text shadows
+draw_shades no 
+
+# Header colors
+color0 DD3A21
+
+# Minimum dimensions
+minimum_size 1440 0
+
+# Conky positioning.
+alignment top_left
+gap_x 0
+gap_y 0
+
+TEXT
+${voffset 20}
+#${goto 700}${color EAEAEA}${font GE Inspira:pixelsize=120}${time %H:%M}${font}${voffset -84}${offset 10}${color FFA300}${font GE Inspira:pixelsize=42}${time %d} ${voffset -15}${color EAEAEA}${font GE Inspira:pixelsize=22}${time  %B} ${time %Y}${font}${voffset 24}${font GE Inspira:pixelsize=58}${offset -148}${time %A}${font}
+${goto 150}${color EAEAEA}${font Conviction:pixelsize=120}${time %H:%M}${font}${voffset -84}${offset 10}${color FFA300}${font Conviction:pixelsize=42}${time %d} ${voffset -15}${color EAEAEA}${font Conviction:pixelsize=22}${time  %B} ${time %Y}${font}${voffset 24}${font Conviction:pixelsize=58}${offset -100}${time %A}${font}
+${goto 135}${voffset 20}${offset 15}${font Ubuntu:pixelsize=12}${color FFA300}HD ${offset 9}$color${fs_free /} / ${fs_size /}${offset 30}${color FFA300}RAM ${offset 9}$color$mem / $memmax${offset 30}${color FFA300}CPU ${offset 9}$color${cpu cpu0}%
+${voffset 900}
+
+
+
+
+
+
+
+
+
+
+
