@@ -1,1 +1,1 @@
-![personal theme](https://github.com/Martikos/conkyrc/blob/master/conky.jpg)
+![personal theme](https://raw.github.com/Martikos/conkyrc/master/conky.jpg)
